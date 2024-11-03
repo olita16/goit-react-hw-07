@@ -1,0 +1,16 @@
+.formLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.formLabel input {
+  display: block;
+  padding: 5px;
+}
+
+.formLabel input:focus {
+  border-color: rgb(133, 133, 237);
+  outline: 0;
+  box-shadow: 0 0 1px 2px rgba(39, 34, 178, 0.7);
+}
